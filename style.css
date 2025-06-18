@@ -1,0 +1,144 @@
+#areusure {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease, filter 0.5s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#areusure:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 5px #00c6ff);
+  text-shadow: 0 0 5px white;
+}
+
+#areusure:focus {
+  outline: none;
+  filter: drop-shadow(0 0 5px #00c6ff);
+}
+
+/* 🛠 put this AFTER :focus */
+#areusure:active {
+  transform: scale(0.95);
+  opacity: 0.75;
+  background: linear-gradient(to right, #0099cc, #005fa3); /* optional override */
+}
+
+#dontclick {
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease, filter 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#dontclick:hover {
+  background: linear-gradient(to right, #aa1100, #2a2a25);
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 5px #ff3b3b);
+}
+
+
+#dontclick:active {
+  background: linear-gradient(to right, #5c0000, #161614);
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+input[type="text"] {
+  padding : 5px;
+  border-radius : 20px;
+  border : 2px solid #aad4ff;
+  width : 300px;
+  height : 20px;
+  font-size : 16px;
+  background-color : white;
+  border: 1px solid #aad4ff;
+  
+  outline : none;
+  cursor : text;
+  display : block;
+  transition : transform 0.3s ease;
+  
+  
+}
+
+input[type="text"]:focus {
+  outline : none;
+  box-shadow: 0 0 5px #00c6ff; 
+  border: 1px solid #00c6ff; 
+  transform : scale(1.03);
+}
+input::placeholder { 
+  color : #aaa;
+  font-style : italic;
+  opacity : 1;
+  
+}
+body {
+  transition : background-color 1.4s ease;
+}
+body.dark-mode {
+  background-color : #121212;
+  color: white;
+  transition : background-color 0.4s ease;
+  
+}
+#working {
+ background: linear-gradient(to right, #ff6a00, #ee0979);
+
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease, filter 0.5s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#working:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+
+  text-shadow: 0 0 5px white;
+}
+
+#working:focus {
+  outline: none;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+
+}
+
+/* 🛠 put this AFTER :focus */
+#working:active {
+  transform: scale(0.95);
+  opacity: 0.75;
+background: linear-gradient(to right, #cc5500, #cc0066);
+}
+body.dark-mode input[type="text"] {
+  color : white;
+  padding : 5px;
+  border-radius : 20px;
+  border : 2px solid #aad4ff;
+  width : 300px;
+  height : 20px;
+  font-size : 16px;
+  background-color : #1e1e1e;
+  border: 1px solid #555;
+  
+  outline : none;
+  cursor : text;
+  display : block;
+  transition : transform 0.3s ease;
+}
